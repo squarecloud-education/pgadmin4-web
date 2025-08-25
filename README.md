@@ -1,5 +1,6 @@
 
-# 🐘 Square PgAdmin4 — Host pgAdmin on Square Cloud ☁️
+# 🐘 Square PgAdmin4
+## Host pgAdmin on Square Cloud ☁️
 
 > 🌐 Easily host your own pgAdmin on Square Cloud and access your PostgreSQL databases from anywhere, right from your browser, with a beautiful and user-friendly interface.
 
