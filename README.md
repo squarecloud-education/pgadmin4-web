@@ -5,7 +5,12 @@
 
 ---
 
+
 ## 🚀 How to host this project on Square Cloud
+
+### 📦 Download the project
+
+It is recommended to download the `project.zip` file from the latest [release page](https://github.com/squarecloud-education/pgadmin4-web/releases) for a quick and easy setup. This will be the zip file you will upload to Square Cloud.
 
 ### 📝 Recommended Requirements
 
