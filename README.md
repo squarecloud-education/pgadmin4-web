@@ -44,4 +44,4 @@ The goal of this project is to let you host a pgAdmin instance on Square Cloud, 
 
 ## 🙏 Credits
 
-Developed and maintained by [@josejooj](https://github.com/josejooj) on GitHub.
+Maintained by [@josejooj](https://github.com/josejooj) on GitHub.
