@@ -1,10 +1,9 @@
-import os, subprocess, sys
+import importlib.util, os, subprocess
 
 # Define some constants and paths to use later
-PYTHON_VERSION = ".".join(sys.version.split(".")[0:2])
 CPU_COUNT = os.cpu_count()
-APPLICATION_PATH = os.getcwd()
-PGADMIN_PATH = f"{APPLICATION_PATH}/.local/lib/python{PYTHON_VERSION}/site-packages/pgadmin4"
+# Find pgadmin4 wherever pip installed it (.local with pip --user, site-packages otherwise)
+PGADMIN_PATH = importlib.util.find_spec("pgadmin4").submodule_search_locations[0]
 
 # Create private pgadmin folder
 # This folder will store database, log, and another things about pgAdmin

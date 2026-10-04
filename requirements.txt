@@ -1,2 +1,2 @@
-pgadmin4
-gunicorn
+pgadmin4==9.18
+gunicorn==26.2.0
